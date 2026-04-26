@@ -118,7 +118,7 @@ velodrome-diponegoro/
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/username/velodrome-diponegoro.git
+https://github.com/fattahmaulana/Velodrome-Booking-Management-System-Admin-User-Panel-.git
 
 # 2. Pindahkan ke direktori web server
 # XAMPP:
