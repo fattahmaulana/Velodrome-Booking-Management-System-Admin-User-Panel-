@@ -122,7 +122,7 @@ git clone https://github.com/username/velodrome-diponegoro.git
 
 # 2. Pindahkan ke direktori web server
 # XAMPP:
-cp -r velodrome-diponegoro /xampp/htdocs/satrio
+cp -r velodrome-diponegoro /xampp/htdocs/velodrome
 
 # 3. Import database
 mysql -u root -p < database.sql
@@ -142,13 +142,13 @@ define('DB_HOST', 'localhost');
 define('DB_NAME', 'velodrome_db');
 define('DB_USER', 'root');
 define('DB_PASS', '');           // Sesuaikan password MySQL
-define('BASE_URL', '/satrio');   // Sesuaikan path project
+define('BASE_URL', '/velodrome');   // Sesuaikan path project
 ```
 
 ### Jalankan
 
 ```
-http://localhost/satrio/
+http://localhost/velodrome/
 ```
 
 ---
